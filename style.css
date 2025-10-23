@@ -1,0 +1,100 @@
+body {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Background.jpeg");
+  
+}
+.img{
+    padding-left: 18px;
+}
+.main-heading{
+    color: whitesmoke;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.card-container {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.read-more-btn{
+    color: azure;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+}
+.read-more-btn:hover {
+    background-color: red;
+}
+
+.card:hover{
+    background: #21476e;
+    
+}
+
+.midbutton{
+  color: white;
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  margin: 5%;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+   
+}
+
+.login-container{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+ 
+}
+
+.midbutton:hover{
+    transform: scale(1.3);
+}
