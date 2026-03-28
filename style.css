@@ -61,6 +61,7 @@ body {
 .read-more-btn{
     color: azure;
     background-color: black;
+    padding: 10px;
     border: none;
     border-radius: 6px;
 }
