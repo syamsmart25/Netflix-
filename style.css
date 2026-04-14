@@ -2,6 +2,7 @@ body {
   background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("Background.jpeg");
   
 }
+
 .img{
     padding-left: 18px;
 }
@@ -20,7 +21,6 @@ body {
     gap: 20px;
     padding: 40px 20px;
 }
-
 .card {
     background-color: white;
     border-radius: 8px;
@@ -31,13 +31,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .card img {
     width: 100%;
     height: auto;
     display: block;
 }
-
 .card-content {
     padding: 20px;
     flex-grow: 1;
@@ -49,7 +47,6 @@ body {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
-
 .card-content p {
     font-size: 1em;
     line-height: 1.6;
@@ -57,7 +54,6 @@ body {
     margin-bottom: 20px;
     flex-grow: 1;
 }
-
 .read-more-btn{
     color: azure;
     background-color: black;
@@ -73,7 +69,6 @@ body {
     background: #21476e;
     
 }
-
 .midbutton{
   color: white;
   background-color: red;
@@ -85,11 +80,9 @@ body {
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
-   
 }
 
-.login-container{
-    
+.login-container{    
   display: flex;
   justify-content: center;
   align-items: center; 
